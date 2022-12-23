@@ -1,0 +1,112 @@
+body {  
+    background: none !important;
+}
+
+h8 {
+    color: snow;
+}
+
+container {
+	overflow-y: scroll;
+    /* Position */
+    position: absolute;
+    top: 50%; /* Top og ned */
+    left: 50%; /* Venstre og ud */
+    transform: translate(-50%, -50%); /* For den til at ceter */
+    background-color: rgb(49, 48, 48);
+    border-radius: 1vw;
+    width: 42vw;
+    height: 24vw;
+    box-shadow: 0px 0px 2vw -0.1vw #000000;
+    text-align: center;
+}
+
+#headers
+{
+    display: flex;
+    padding-left: 3vw;
+    gap: 3vw;
+    text-size-adjust: auto;
+}
+
+container::-webkit-scrollbar {
+    display: none;
+}
+
+hr {
+    background-color: snow;
+}
+
+body {
+    background: none !important;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+}
+
+#buttons {
+    border: none;
+    background: none;
+	border-radius:3px;
+	cursor:pointer;
+	color:#ffffff;
+	padding:0.1vw 0.3vw;
+	outline: none;
+    gap: 0vw;
+    height: 2vw;
+    width: 2.3vw;
+}
+
+.buttons:hover {
+	outline: none;
+    transition: 0.2s;
+}
+.buttons:active {
+	position:relative;
+	outline: none;
+}
+
+#name {
+    height: 11%;
+    font: italic small-caps bold Georgia, serif;
+    background-color: (49, 48, 48,1);
+    text-align: center;
+    color: snow;
+}
+
+.img {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+    width:2vw;
+    height:2vw;
+    cursor: pointer;
+}
+
+#table {
+    position: fixed;
+    left: 1vw;
+    width: 40vw;
+	overflow: visible;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#table {
+    overflow-y: scroll;
+}
+
+td {
+    border-bottom: 2px solid rgba(49, 48, 48,1);
+}
+
+th,
+td {
+	padding: 10px;
+	background-color: rgba(255,255,255,0.2);
+	color: snow;
+}
+
+th {
+	text-align: center;
+}
+
+
